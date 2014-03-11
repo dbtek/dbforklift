@@ -11,7 +11,7 @@
 .navbar-dbf {
   background-color: #e74c3c;
   color: white;
-  border: none;
+  border-bottom: none;
 }
 .navbar-dbf .navbar-brand{
   color: #eee;
