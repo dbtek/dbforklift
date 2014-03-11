@@ -5,3 +5,26 @@
 .nav-menu li a {
   cursor: pointer;
 }
+
+/** Bootstrap overrides **/
+
+.navbar-dbf {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+}
+.navbar-dbf .navbar-brand{
+  color: #eee;
+}
+.navbar-dbf .nav li a {
+  color: #eee;
+  font-weight: normal;
+}
+
+.navbar-dbf .nav li a:hover {
+  color: white;
+}
+
+.section-heading {
+  color: #e74c3c;
+}
