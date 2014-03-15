@@ -49,8 +49,11 @@ function init(){
   };
 
   window.onscroll = function(){
-    if(!autoScroll)
-      activateNavLink('#!'+findCurrentScrollSection(0));
+    if(!autoScroll){
+      section = findCurrentScrollSection(0);
+      if(section)
+        activateNavLink('#!'+section);
+    }
   };
 
   sections.forEach(function(val){
