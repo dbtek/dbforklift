@@ -1,11 +1,24 @@
 .text-light {
   color: #aaa;
 }
-
 .nav-menu li a {
   cursor: pointer;
 }
-
+.section-heading {
+  color: #e74c3c;
+}
+footer {
+  background-color: #c0392b !important;
+  font-weight: normal;
+  color: #bdc3c7;
+}
+footer a {
+  color: #eee;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
 /** Bootstrap overrides **/
 
 .navbar-dbf {
@@ -13,18 +26,21 @@
   color: white;
   border-bottom: none;
 }
-.navbar-dbf .navbar-brand{
+.navbar-dbf .navbar-brand {
+  color: #eee;
+}
+.navbar-dbf .navbar-brand:hover {
   color: #eee;
 }
 .navbar-dbf .nav li a {
   color: #eee;
   font-weight: normal;
 }
-
-.navbar-dbf .nav li a:hover {
+.navbar-dbf .nav li a:hover, .navbar-dbf .nav li.active a:hover {
   color: white;
+  background-color: #c0392b;
 }
-
-.section-heading {
-  color: #e74c3c;
+.navbar-dbf .nav li.active a {
+  background-color: #c0392b;
+  color: white;
 }
