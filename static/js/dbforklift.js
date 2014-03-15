@@ -2,6 +2,7 @@ function init(){
   var sections = ['home','about','services','references','contact'];
   var sectionPositions = [];
   var autoScroll = false;
+  var sectionOffset = 100;
 
   var parseHash = function() {
     if(window.location.hash)
@@ -34,8 +35,8 @@ function init(){
   var findCurrentScrollSection = function(i) {
     var pos = window.scrollY;
     if(i < sectionPositions.length) {
-      if(pos >= sectionPositions[i].pos) {
-        if(!sectionPositions[i+1] || pos < sectionPositions[i+1].pos)
+      if(pos >= sectionPositions[i].pos - sectionOffset) {
+        if(!sectionPositions[i+1] || pos < sectionPositions[i+1].pos - sectionOffset)
           return sectionPositions[i].id;
         else
           return findCurrentScrollSection(i+1);
