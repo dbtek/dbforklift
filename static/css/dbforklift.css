@@ -44,3 +44,5 @@ footer a:hover {
   background-color: #c0392b;
   color: white;
 }
+.navbar-dbf .navbar-header .navbar-toggle .icon-bar { background-color: #fff }
+.navbar-dbf .navbar-header .navbar-toggle:hover .icon-bar, .navbar-dbf .navbar-header .navbar-toggle:focus .icon-bar { background-color: #e74c3c }
