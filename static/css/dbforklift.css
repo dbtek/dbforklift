@@ -4,6 +4,9 @@
 .nav-menu li a {
   cursor: pointer;
 }
+.section {
+  min-height: 550px;
+}
 .section-heading {
   color: #e74c3c;
 }
