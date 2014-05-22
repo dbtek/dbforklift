@@ -49,3 +49,14 @@ footer a:hover {
 }
 .navbar-dbf .navbar-header .navbar-toggle .icon-bar { background-color: #fff }
 .navbar-dbf .navbar-header .navbar-toggle:hover .icon-bar, .navbar-dbf .navbar-header .navbar-toggle:focus .icon-bar { background-color: #e74c3c }
+
+#contact .info {
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+#contact .info .glyphicon {
+  position: relative;
+  left: -5px;
+}
